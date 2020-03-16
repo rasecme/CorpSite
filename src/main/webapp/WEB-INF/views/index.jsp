@@ -38,7 +38,7 @@
 					<div class="col-md-5 col-sm-6 col-md-push-7 col-sm-push-6">
 						<h2>Some of the coolest places to work</h2>
 						<p class="lead mb48 mb-xs-32">
-							Ever want to work inside of a mountain? Yeah we did too.  How else are we supposed to keep our 
+							Ever want to work inside of a mountain? Yeah of course we did too.  How else are we supposed to keep our 
 							cool technologies away from the prying eyes of governments?
 						</p>
 					</div>
