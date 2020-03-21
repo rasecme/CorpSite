@@ -15,8 +15,12 @@
 								<h6 class="uppercase mb32" style="font-size: 1.2em;">Not an evil organization.</h6>
 								<p class="text-center mb0">
 									We believe in the power of teams.  We take care of our employees, have fitness rooms
+<<<<<<< HEAD
 									and casual dress, and we don't believe in walls.
 			
+=======
+									and casual dress, and we don't believe in walls
+>>>>>>> 7a48e35e004b88a560e5809c975145391cc105cf
 								</p>
 							</div>
 						</div>
