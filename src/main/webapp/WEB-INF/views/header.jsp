@@ -12,9 +12,9 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
         rel='stylesheet' type='text/css'>
     </head>
-    
+
     <!-- chaged code for a feature  -->
-    
+
     <body class="btn-rounded scroll-assist">
         <div class="nav-container">
             <nav class="bg-dark absolute transparent">
@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Jobs for Danny</a>
+                                    <a href="/careers">Jobs</a>
                                 </li>
                                 <li>
                                     <a href="#">
