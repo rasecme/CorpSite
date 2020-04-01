@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">careers for webinar demo</a>
+                                    <a href="/careers">careers</a>
                                 </li>
                                 <li>
                                     <a href="#">
@@ -47,7 +47,7 @@
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#">Cypress Park</a>
+                                            <a href="#">Cypress Hill</a>
                                         </li>
                                         <li>
                                             <a href="#">Space Mountain</a>
