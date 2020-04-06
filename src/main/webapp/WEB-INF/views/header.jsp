@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers at McDonalds</a>
+                                    <a href="/careers">Careers at Scotia</a>
                                 </li>
                                 <li>
                                     <a href="#">
