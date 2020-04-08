@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Jobs</a>
+                                    <a href="/careers">ServiceNow Careers</a>
                                 </li>
                                 <li>
                                     <a href="#">
@@ -47,7 +47,7 @@
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#">Cypress Creek</a>
+                                            <a href="#">Cypress Hill</a>
                                         </li>
                                         <li>
                                             <a href="#">Space Mountain</a>
