@@ -17,7 +17,6 @@
 									We believe in the power of teams.  We take care of our employees, have fitness rooms
 									and casual dress, and we don't believe in walls
 									
-									<h1> Hello SC Enablement session!</h1>
 								</p>
 							</div>
 						</div>
