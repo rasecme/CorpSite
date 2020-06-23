@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers at US Navy</a>
+                                    <a href="/careers">Jobs</a>
                                 </li>
                                 <li>
                                     <a href="#">
