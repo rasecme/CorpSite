@@ -18,7 +18,6 @@
 									and casual dress, and we don't believe in walls
 									
 								
-					test 1,2,3
 								</p>
 							</div>
 						</div>
