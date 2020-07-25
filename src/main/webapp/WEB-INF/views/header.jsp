@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Microsoft Jobs</a>
+                                    <a href="/careers">Microsoft Careers</a>
                                 </li>
                                 <li>
                                     <a href="#">
