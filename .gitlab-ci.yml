@@ -16,8 +16,7 @@ stages:
   - prod
 build:
   stage: build
-  tags:
-    - ec2
+
   script:
     - echo "\nBuilding"
     - mvn $MAVEN_CLI_OPTS compile verify
@@ -30,30 +29,27 @@ build:
     - echo "Status- $?"
 uat:
   stage: uat
-  tags:
-    - ec2
+ 
   script:
     - echo "Deploy to UAT"
     
 test:
   stage: test
-  tags:
-    - ec2
+ 
   script:
     - echo "Testing"
     - mvn $MAVEN_CLI_OPTS test
     - echo "Register package"
     - |
       curl -i \
-        --data "{\"artifacts\": [ { \"name\": \"globex-web.war\", \"repositoryName\": \"boeing\", \"version\": \"3.0.${CI_PIPELINE_ID}\" } ], \"projectName\": \"${CI_PROJECT_TITLE}#${CI_JOB_NAME}\", \"taskExecutionNumber\": \"${CI_JOB_ID}\", \"name\": \"Boeing_Globex\" }" \
+        --data "{\"artifacts\": [ { \"name\": \"globex-web.war\", \"repositoryName\": \"demorepo\", \"version\": \"3.0.${CI_PIPELINE_ID}\" } ], \"projectName\": \"${CI_PROJECT_TITLE}#${CI_JOB_NAME}\", \"taskExecutionNumber\": \"${CI_JOB_ID}\", \"name\": \"Boeing_Globex\" }" \
         --header "Content-Type: application/json" \
         --request POST \
         "https://devops.integration.user:devops@$INSTANCE/api/sn_devops/v1/devops/package/registration?orchestrationToolId=$TOOLID"
     - echo "Status- $?"
 prod:
   stage: prod
-  tags:
-    - ec2
+  
   script:
     - echo "Deploy in Production"
     
