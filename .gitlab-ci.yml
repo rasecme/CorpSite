@@ -23,7 +23,7 @@ build:
     - echo "Registering artifact"
     - |
       curl --fail --output "/dev/null" --silent --show-error --write-out "HTTP response: ${http_code}\n\n" \
-      --data "{\"artifacts\" : [ { \"name\": \"globex-web.war\", \"repositoryName\": \"demorep\", \"version\": \"3.0.${CI_PIPELINE_ID}\", \"semanticVersion\": \"3.0.${CI_PIPELINE_ID}\"} ], \"projectName\": \"${CI_PROJECT_TITLE}#${CI_JOB_NAME}\", \"taskExecutionNumber\": \"${CI_JOB_ID}\" }" \
+      --data "{\"artifacts\" : [ { \"name\": \"globex-web.war\", \"repositoryName\": \"demorepo\", \"version\": \"3.0.${CI_PIPELINE_ID}\", \"semanticVersion\": \"3.0.${CI_PIPELINE_ID}\"} ], \"projectName\": \"${CI_PROJECT_TITLE}#${CI_JOB_NAME}\", \"taskExecutionNumber\": \"${CI_JOB_ID}\" }" \
       --header "Content-Type: application/json" --request POST \
       "https://devops.integration.user:devops@$INSTANCE/api/sn_devops/v1/devops/artifact/registration?orchestrationToolId=$TOOLID"
     - echo "Status- $?"
