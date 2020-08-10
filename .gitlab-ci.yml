@@ -50,10 +50,10 @@ test:
 prod:
   stage: prod
   before_script:
-    eval $(ssh-agent -s)
-    echo "$DEMO_KEY" | tr -d '\r' | ssh-add -
-    mkdir -p ~/.ssh
-    chmod 700 ~/.ssh
+   - eval $(ssh-agent -s)
+   - echo "$DEMO_KEY" | tr -d '\r' | ssh-add -
+   - mkdir -p ~/.ssh
+   - chmod 700 ~/.ssh
   script:
     - echo "Deploy in Production"
       scp -o StrictHostKeyChecking=no globex-web.war ec2-user@3.23.165.149:/opt/tomcat/webapps
