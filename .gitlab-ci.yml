@@ -1,4 +1,3 @@
-include: 'https://gitlab.com/x4v13r/gitlab-ci/raw/master/ssh.yml'
 image: maven:latest
 cache:
   key: "$CI_PIPELINE_ID"
@@ -50,9 +49,10 @@ test:
     - echo "Status- $?"
 prod:
   stage: prod
+  before_script:
+    - yum install openssh-client
   script:
     - echo "Deploy in Production"
-    - ssh_run "ec2-user" "3.23.165.149" "$SSH_PRIVATE_KEY" "ls -l"
-    
+  
   when: manual
   allow_failure: false
