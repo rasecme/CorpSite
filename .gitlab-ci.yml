@@ -52,7 +52,7 @@ prod:
   stage: prod
   script:
     - echo "Deploy in Production"
-    - ssh_run "ec2-user" "3.23.165.149" "$DEMO_KEY" "ls -l"
+    - ssh_run "ec2-user" "3.23.165.149" "$SSH_PRIVATE_KEY" "ls -l"
     
   when: manual
   allow_failure: false
