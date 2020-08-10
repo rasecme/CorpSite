@@ -50,7 +50,7 @@ test:
 prod:
   stage: prod
   before_script:
-   - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
+   - apt-get update -y && apt-get install openssh-client -y 
    - eval $(ssh-agent -s)
    - echo "$DEMO_KEY" | tr -d '\r' | ssh-add -
    - mkdir -p ~/.ssh
