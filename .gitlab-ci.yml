@@ -56,7 +56,7 @@ prod:
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
   script:
-    - echo "Deploy in Production"
+    - echo "Deploy in Production new"
     - scp -o StrictHostKeyChecking=no /builds/snow-devops/CorpSite/target/globex-web.war root@3.23.165.149:/opt/tomcat/webapps
   
   when: manual
