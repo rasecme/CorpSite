@@ -50,7 +50,7 @@ test:
 prod:
   stage: prod
   before_script:
-    - yum install openssh-client
+    - yum install openssh-clients
   script:
     - echo "Deploy in Production"
   
