@@ -66,6 +66,6 @@ prod:
     - ec2
   script:
     - echo "Deploy in Production"
-    - scp -i ~/.ssh/devopsdemo.pem target/globex-web.war ec2-user@3.23.165.149:/opt/tomcat/webapps
+    - scp -i /home/ec2-user/.ssh/devopsdemo.pem target/globex-web.war ec2-user@3.23.165.149:/opt/tomcat/webapps
   when: manual
   allow_failure: false
