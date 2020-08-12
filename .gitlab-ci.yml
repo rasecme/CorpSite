@@ -67,6 +67,6 @@ prod:
   script:
     - echo "Deploy in Production"
     - cp -f target/globex-web.war /opt/tomcat/webapps
-    - curl "https://devopsdemo01.service-now.com/api/snc/discoip?ip=3.23.165.149" --request GET --header "Accept:application/json" --user "srvcacct":"devops" 1>/dev/null 2>/dev/null
+    - /var/tmp/discovery.sh
   when: manual
   allow_failure: false
