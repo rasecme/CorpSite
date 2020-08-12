@@ -16,6 +16,8 @@
 								<p class="text-center mb0">
 									We believe in the power of teams.  We take care of our employees, have fitness rooms
 									and casual dress, and we don't believe in walls
+<h2>Hello GitLab Commit Conference!</h2>
+
 									
 								</p>
 							</div>
