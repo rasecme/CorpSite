@@ -9,12 +9,12 @@ variables:
   DURATION: 20
   MAVEN_CLI_OPTS: ""    #-s .m2/settings.xml --batch-mode"
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
-  INSTANCE: "lrochette1.service-now.com"
-  TOOLID: "af159fb51bead050a9aec88c0a4bcb53"
-  REPONAME: "amex-repo"
-  ARTNAME: "amex-gl-war"
+  INSTANCE: "devopsdemo01.service-now.com"
+  TOOLID: "990300211bdad410ef803223cc4bcb0e"
+  REPONAME: "demorepo"
+  ARTNAME: "globex-web.war"
   ARTVERSION: "3.0.${CI_PIPELINE_ID}"
-  COMPANY: "amex"
+  COMPANY: "globex"
 
 stages:
   - build
@@ -43,7 +43,7 @@ uat:
     - ec2
   script:
     - echo "Deploy to UAT"
-    - scp -i ~/.ssh/Ohio-LR.pem target/globex-web.war ec2-user@uat:/opt/tomcat/webapps
+    
 
 test:
   stage: test
@@ -66,6 +66,6 @@ prod:
     - ec2
   script:
     - echo "Deploy in Production"
-    - scp -i ~/.ssh/Ohio-LR.pem target/globex-web.war ec2-user@prod:/opt/tomcat/webapps
+    - scp -i ~/.ssh/devopsdemo.pem target/globex-web.war ec2-user@3.23.165.149:/opt/tomcat/webapps
   when: manual
   allow_failure: false
