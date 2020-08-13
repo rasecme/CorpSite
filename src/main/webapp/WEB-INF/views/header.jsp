@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers at ServiceNow</a>
+                                    <a href="/careers">Careers at GitLab</a>
                                 </li>
                                 <li>
                                     <a href="#">
