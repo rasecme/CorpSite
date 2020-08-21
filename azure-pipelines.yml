@@ -46,7 +46,7 @@ stages:
     - task: InvokeRESTAPI@1
       inputs:
         connectionType: 'connectedServiceName'
-        serviceConnection: 'RohanService'
+        serviceConnection: 'LWSNOWConnection'
         urlSuffix: "api/sn_devops/v1/devops/orchestration/changeControl?toolId=69bd987ddb16d4907b481ecc139619ba&toolType=adop"
         method: 'POST'
         body: |
