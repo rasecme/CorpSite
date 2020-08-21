@@ -47,7 +47,7 @@ stages:
       inputs:
         connectionType: 'connectedServiceName'
         serviceConnection: 'LWSNOWConnection'
-        urlSuffix: "api/sn_devops/v1/devops/orchestration/changeControl?toolId=69bd987ddb16d4907b481ecc139619ba&toolType=adop"
+        urlSuffix: "api/sn_devops/v1/devops/orchestration/changeControl?toolId=a865bf641b86d410ef803223cc4bcb94&toolType=adop"
         method: 'POST'
         body: |
           {
