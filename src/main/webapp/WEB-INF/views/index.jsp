@@ -18,6 +18,7 @@
 									and casual dress, and we don't believe in walls
 									
 								</p>
+								<h2>SCB DevOps Demo!</h2>
 							</div>
 						</div>
 
