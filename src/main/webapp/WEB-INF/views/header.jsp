@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers at Kohls</a>
+                                    <a href="/careers">Careers at Kohl's</a>
                                 </li>
                                 <li>
                                     <a href="#">
