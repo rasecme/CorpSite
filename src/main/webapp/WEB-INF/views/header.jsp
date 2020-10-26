@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers at Amway</a>
+                                    <a href="/careers">Jobs at Amway</a>
                                 </li>
                                 <li>
                                     <a href="#">
