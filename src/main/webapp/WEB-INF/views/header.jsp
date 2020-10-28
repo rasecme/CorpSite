@@ -39,7 +39,7 @@
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/careers">Careers</a>
+                                    <a href="/careers">Jobs</a>
                                 </li>
                                 <li>
                                     <a href="#">
@@ -50,7 +50,7 @@
                                             <a href="#">Cypress Creek</a>
                                         </li>
                                         <li>
-                                            <a href="#">Top Secret Mountain</a>
+                                            <a href="#">Secret Mountain</a>
                                         </li>
                                
                                     </ul>
