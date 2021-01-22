@@ -7,6 +7,7 @@
 
                         <div class="col-sm-4 text-center">
                             <span class="fade-half">&copy; Copyright 2021 CarMax Corporation - All Rights Reserved.</span>
+                                    
                         </div>
 
                         <div class="col-sm-4 text-right text-center-xs">
