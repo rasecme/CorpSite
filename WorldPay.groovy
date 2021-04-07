@@ -8,7 +8,7 @@ def call(String serviceName) {
     def amiIdentifier = "${serviceName}"
 
     def ECR_REGIONS = ['eu-west-1', 'eu-west-2', 'eu-central-1']
-//  TODO: add region at the end of vault_role like: jenkinsWithEnvForAnsible-${region}
+//  TODO: add region at the end of vault_role for real like: jenkinsWithEnvForAnsible-${region}
     def vault_role = "jenkinsWithEnvForAnsible-eu-west-1"
 
     def appHash = "NotSet"
