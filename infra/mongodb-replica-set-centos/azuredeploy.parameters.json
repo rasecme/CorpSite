@@ -15,7 +15,7 @@
       "value": 2
     },
     "sizeOfDataDiskInGB": {
-      "value": 20
+      "value": 16
     },
     "dnsNamePrefix": {
       "value": "GEN-UNIQUE"
