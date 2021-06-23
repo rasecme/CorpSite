@@ -7,6 +7,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Date;
+import com.lightstep.opentelemetry.launcher.OpenTelemetryConfiguration;
+
+OpenTelemetryConfiguration.newBuilder()
+                  .setServiceName("GlobexWeb")
+                  .setAccessToken("+3ebvEvYjVREOk3aWr0oMgAyrpEU1YQ6ROuFGAOEMcxkVMdRwrPKm9No+8pnvaDHUjPLtYjLcDy0AhnkmEJMMD4MvLB8LJnNMcULosBX")
+                  .install();
+
 
 @Controller
 public class WelcomeController {
