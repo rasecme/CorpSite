@@ -4,10 +4,6 @@ import com.globex.web.config.SpringConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import com.lightstep.opentelemetry.launcher.OpenTelemetryConfiguration;
 
-OpenTelemetryConfiguration.newBuilder()
-                  .setServiceName("GlobexWeb")
-                  .setAccessToken("+3ebvEvYjVREOk3aWr0oMgAyrpEU1YQ6ROuFGAOEMcxkVMdRwrPKm9No+8pnvaDHUjPLtYjLcDy0AhnkmEJMMD4MvLB8LJnNMcULosBX")
-                  .install();
 
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -26,5 +22,11 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+  
+    OpenTelemetryConfiguration.newBuilder()
+                  .setServiceName("GlobexWeb")
+                  .setAccessToken("+3ebvEvYjVREOk3aWr0oMgAyrpEU1YQ6ROuFGAOEMcxkVMdRwrPKm9No+8pnvaDHUjPLtYjLcDy0AhnkmEJMMD4MvLB8LJnNMcULosBX")
+                  .install();
+  
 
 }
