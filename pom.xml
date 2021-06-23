@@ -61,6 +61,13 @@
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
+	<!-- Lightstep -->
+	<dependency>
+	    <groupId>com.lightstep.opentelemetry</groupId>
+            <artifactId>opentelemetry-launcher</artifactId>
+            <version>0.16.0</version>
+        </dependency>
+
 
         <!-- for web servlet -->
         <dependency>
