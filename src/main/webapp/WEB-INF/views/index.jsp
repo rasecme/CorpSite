@@ -15,7 +15,7 @@
 								<h6 class="uppercase mb32" style="font-size: 1.2em;">Not an evil corp.</h6>
 								<p class="text-center mb0">
 									We believe in the strength of teams.  We take care of our employees.  We have fitness rooms, 
-									soft drinks, and casual dress. 									
+									yoga studios, soft drinks, and casual dress. 									
 							
 									
 									
